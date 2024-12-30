@@ -1,4 +1,5 @@
 import "./App.css";
+import Grandpa from "./components/Grandpa/Grandpa";
 // import ReusableFrom from "./components/ReusableFrom/ReusableFrom";
 // import HookFrom from "./components/HookFrom/HookFrom";
 // import RefForm from "./components/RefForm/RefForm";
@@ -17,6 +18,7 @@ function App() {
 	return (
 		<>
 			<h1>Form Master</h1>
+			<Grandpa></Grandpa>
 			{/* <SimpleFrom></SimpleFrom>  */}
 			{/* <StateFullFrom></StateFullFrom> */}
 			{/* <RefForm></RefForm> */}
@@ -28,13 +30,13 @@ function App() {
 				<p>Please Sing up right now</p>
 				</ReusableFrom> */}
 			{/*btn er update man change korte hobe*/}
-			<ReusableFrom
+			{/* <ReusableFrom
 				fromTitel={"From Update"}
 				handelSubmit={handelFromUpdateSubmit}
 				fromTitel={"Update"}>
 				<h2>Update Profile</h2>
 				<p>Always keep your Profile updata</p>
-				</ReusableFrom>
+				</ReusableFrom> */}
 		</>
 	);
 }
